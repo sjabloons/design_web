@@ -1,0 +1,40 @@
+/* drie basisstijlregels om je te helpen */
+:root {
+    font-size: 100%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Changa", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+article:nth-child(1) {
+    background-color: #ca9fd2;
+}
+article:nth-child(1) p {
+    background-color: #fdc930;
+}
+article:nth-child(2) {
+    background-color: #fa6148;
+}
+article:nth-child(2) p {
+    background-color: #2155bf;
+    color: white;
+}
+article:nth-child(3) {
+    background-color: #fdc930;
+}
+article:nth-child(3) h3 {
+    background-color: #21a16b;
+}
+/* gebruikte kleur voor de schaduw van de cirkel: #9fd9c5 */
+/* gebruikte kleur voor tekst en logo: black */
