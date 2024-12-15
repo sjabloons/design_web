@@ -164,15 +164,16 @@ a {
                 background-image: url(img/xerox-code.jpeg);
                 background-repeat: repeat;
                 background-size: cover;
+                position: relative;
                 h3 {
                     background-color: #9fd9c5;
                     height: 6rem;
                     width: 6rem;
                     position: absolute;
                     right: 10rem;
-                    bottom: 35rem;
+                    bottom: 20rem;
                     border-radius: 50%;
-                    box-shadow: rem 0 #21a16b;
+                    box-shadow: 7rem 0 #21a16b;
                 }
             }
         }
